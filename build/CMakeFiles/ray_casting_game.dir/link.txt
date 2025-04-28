@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ray_casting_game.dir/link.d CMakeFiles/ray_casting_game.dir/main.cpp.o -o ray_casting_game  /usr/lib/x86_64-linux-gnu/libSDL2.so /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so

@@ -3,7 +3,18 @@
 A basic 2D raycasting engine written in modern **C++17** using **SDL2** and **SDL2_ttf** for rendering and FPS display.
 Inspired by classic games like *Wolfenstein 3D*, this project showcases the fundamentals of raycasting in a simple, modular structure.
 
+
 ---
+
+## Resources
+
+- https://lodev.org/cgtutor/raycasting.html
+
+- https://permadi.com/1996/05/ray-casting-tutorial-table-of-contents/
+
+
+---
+
 
 ## Features
 
@@ -30,24 +41,6 @@ sudo apt install g++ libsdl2-dev libsdl2-ttf-dev
 
 ---
 
-## Build and Run
-
-You can use the provided `run.sh` script:
-
-```bash
-chmod +x run.sh
-./run.sh
-```
-
-What `run.sh` does:
-```bash
-g++ -std=c++17 ./../src/main.cpp \
-    ./../src/map/map.h ./../src/map/map.cpp \
-    ./../src/render/render.h ./../src/render/render.cpp \
-    -o raycaster -lSDL2 -lSDL2_ttf
-./raycaster
-```
-<br>
 
 ```
 
