@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/linuxbrew/.linuxbrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /home/linuxbrew/.linuxbrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alen/Documents/programing/c++/SDL/ray_casting_game
+CMAKE_SOURCE_DIR = /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alen/Documents/programing/c++/SDL/ray_casting_game/build
+CMAKE_BINARY_DIR = /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ray_casting_game.dir/depend.make
@@ -73,33 +73,97 @@ CMakeFiles/ray_casting_game.dir/codegen:
 .PHONY : CMakeFiles/ray_casting_game.dir/codegen
 
 CMakeFiles/ray_casting_game.dir/main.cpp.o: CMakeFiles/ray_casting_game.dir/flags.make
-CMakeFiles/ray_casting_game.dir/main.cpp.o: /home/alen/Documents/programing/c++/SDL/ray_casting_game/main.cpp
+CMakeFiles/ray_casting_game.dir/main.cpp.o: /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/main.cpp
 CMakeFiles/ray_casting_game.dir/main.cpp.o: CMakeFiles/ray_casting_game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray_casting_game.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_casting_game.dir/main.cpp.o -MF CMakeFiles/ray_casting_game.dir/main.cpp.o.d -o CMakeFiles/ray_casting_game.dir/main.cpp.o -c /home/alen/Documents/programing/c++/SDL/ray_casting_game/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ray_casting_game.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_casting_game.dir/main.cpp.o -MF CMakeFiles/ray_casting_game.dir/main.cpp.o.d -o CMakeFiles/ray_casting_game.dir/main.cpp.o -c /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/main.cpp
 
 CMakeFiles/ray_casting_game.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ray_casting_game.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alen/Documents/programing/c++/SDL/ray_casting_game/main.cpp > CMakeFiles/ray_casting_game.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/main.cpp > CMakeFiles/ray_casting_game.dir/main.cpp.i
 
 CMakeFiles/ray_casting_game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ray_casting_game.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alen/Documents/programing/c++/SDL/ray_casting_game/main.cpp -o CMakeFiles/ray_casting_game.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/main.cpp -o CMakeFiles/ray_casting_game.dir/main.cpp.s
+
+CMakeFiles/ray_casting_game.dir/src/game.cpp.o: CMakeFiles/ray_casting_game.dir/flags.make
+CMakeFiles/ray_casting_game.dir/src/game.cpp.o: /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/game.cpp
+CMakeFiles/ray_casting_game.dir/src/game.cpp.o: CMakeFiles/ray_casting_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ray_casting_game.dir/src/game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_casting_game.dir/src/game.cpp.o -MF CMakeFiles/ray_casting_game.dir/src/game.cpp.o.d -o CMakeFiles/ray_casting_game.dir/src/game.cpp.o -c /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/game.cpp
+
+CMakeFiles/ray_casting_game.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ray_casting_game.dir/src/game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/game.cpp > CMakeFiles/ray_casting_game.dir/src/game.cpp.i
+
+CMakeFiles/ray_casting_game.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ray_casting_game.dir/src/game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/game.cpp -o CMakeFiles/ray_casting_game.dir/src/game.cpp.s
+
+CMakeFiles/ray_casting_game.dir/src/map.cpp.o: CMakeFiles/ray_casting_game.dir/flags.make
+CMakeFiles/ray_casting_game.dir/src/map.cpp.o: /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/map.cpp
+CMakeFiles/ray_casting_game.dir/src/map.cpp.o: CMakeFiles/ray_casting_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ray_casting_game.dir/src/map.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_casting_game.dir/src/map.cpp.o -MF CMakeFiles/ray_casting_game.dir/src/map.cpp.o.d -o CMakeFiles/ray_casting_game.dir/src/map.cpp.o -c /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/map.cpp
+
+CMakeFiles/ray_casting_game.dir/src/map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ray_casting_game.dir/src/map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/map.cpp > CMakeFiles/ray_casting_game.dir/src/map.cpp.i
+
+CMakeFiles/ray_casting_game.dir/src/map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ray_casting_game.dir/src/map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/map.cpp -o CMakeFiles/ray_casting_game.dir/src/map.cpp.s
+
+CMakeFiles/ray_casting_game.dir/src/player.cpp.o: CMakeFiles/ray_casting_game.dir/flags.make
+CMakeFiles/ray_casting_game.dir/src/player.cpp.o: /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/player.cpp
+CMakeFiles/ray_casting_game.dir/src/player.cpp.o: CMakeFiles/ray_casting_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ray_casting_game.dir/src/player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_casting_game.dir/src/player.cpp.o -MF CMakeFiles/ray_casting_game.dir/src/player.cpp.o.d -o CMakeFiles/ray_casting_game.dir/src/player.cpp.o -c /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/player.cpp
+
+CMakeFiles/ray_casting_game.dir/src/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ray_casting_game.dir/src/player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/player.cpp > CMakeFiles/ray_casting_game.dir/src/player.cpp.i
+
+CMakeFiles/ray_casting_game.dir/src/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ray_casting_game.dir/src/player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/player.cpp -o CMakeFiles/ray_casting_game.dir/src/player.cpp.s
+
+CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o: CMakeFiles/ray_casting_game.dir/flags.make
+CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o: /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/ray_caster.cpp
+CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o: CMakeFiles/ray_casting_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o -MF CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o.d -o CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o -c /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/ray_caster.cpp
+
+CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/ray_caster.cpp > CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.i
+
+CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/ray_caster.cpp -o CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.s
 
 # Object files for target ray_casting_game
 ray_casting_game_OBJECTS = \
-"CMakeFiles/ray_casting_game.dir/main.cpp.o"
+"CMakeFiles/ray_casting_game.dir/main.cpp.o" \
+"CMakeFiles/ray_casting_game.dir/src/game.cpp.o" \
+"CMakeFiles/ray_casting_game.dir/src/map.cpp.o" \
+"CMakeFiles/ray_casting_game.dir/src/player.cpp.o" \
+"CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o"
 
 # External object files for target ray_casting_game
 ray_casting_game_EXTERNAL_OBJECTS =
 
 ray_casting_game: CMakeFiles/ray_casting_game.dir/main.cpp.o
+ray_casting_game: CMakeFiles/ray_casting_game.dir/src/game.cpp.o
+ray_casting_game: CMakeFiles/ray_casting_game.dir/src/map.cpp.o
+ray_casting_game: CMakeFiles/ray_casting_game.dir/src/player.cpp.o
+ray_casting_game: CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o
 ray_casting_game: CMakeFiles/ray_casting_game.dir/build.make
 ray_casting_game: CMakeFiles/ray_casting_game.dir/compiler_depend.ts
-ray_casting_game: /usr/lib/x86_64-linux-gnu/libSDL2.so
-ray_casting_game: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
+ray_casting_game: /usr/lib/libSDL2-2.0.so.0.3200.54
+ray_casting_game: /usr/lib/libSDL2_ttf.so
 ray_casting_game: CMakeFiles/ray_casting_game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ray_casting_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ray_casting_game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ray_casting_game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +175,6 @@ CMakeFiles/ray_casting_game.dir/clean:
 .PHONY : CMakeFiles/ray_casting_game.dir/clean
 
 CMakeFiles/ray_casting_game.dir/depend:
-	cd /home/alen/Documents/programing/c++/SDL/ray_casting_game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alen/Documents/programing/c++/SDL/ray_casting_game /home/alen/Documents/programing/c++/SDL/ray_casting_game /home/alen/Documents/programing/c++/SDL/ray_casting_game/build /home/alen/Documents/programing/c++/SDL/ray_casting_game/build /home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles/ray_casting_game.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2 /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2 /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles/ray_casting_game.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ray_casting_game.dir/depend
 

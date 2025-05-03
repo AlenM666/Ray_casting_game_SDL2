@@ -1,7 +1,7 @@
-CMakeFiles/ray_casting_game.dir/main.cpp.o: \
- /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/main.cpp \
+CMakeFiles/ray_casting_game.dir/src/map.cpp.o: \
+ /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/map.cpp \
  /usr/include/stdc-predef.h \
- /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/include/game.hpp \
+ /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/./../include/map.hpp \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
  /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \
@@ -218,8 +218,6 @@ CMakeFiles/ray_casting_game.dir/main.cpp.o: \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_render.h \
- /usr/include/SDL2/SDL_ttf.h /usr/include/SDL2/SDL.h \
- /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/include/map.hpp \
  /usr/include/c++/14.2.1/string /usr/include/c++/14.2.1/bits/stringfwd.h \
  /usr/include/c++/14.2.1/bits/memoryfwd.h \
  /usr/include/c++/14.2.1/bits/char_traits.h \
@@ -261,6 +259,4 @@ CMakeFiles/ray_casting_game.dir/main.cpp.o: \
  /usr/include/c++/14.2.1/cstddef \
  /usr/include/c++/14.2.1/bits/uses_allocator.h \
  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
- /usr/include/c++/14.2.1/tuple \
- /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/include/player.hpp \
- /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/include/ray_caster.hpp
+ /usr/include/c++/14.2.1/tuple

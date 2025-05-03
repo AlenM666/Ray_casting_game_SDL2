@@ -1,11 +1,13 @@
-#include "./include/game.hpp"
+#include "include/game.hpp"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_ttf.h>
 
 
-int main()
+int main(int argc, char* argv[])
 {
-    //runs the game
     Game game;
     game.run();
+
     return 0;
 }
 

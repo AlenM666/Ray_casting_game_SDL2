@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/alen/Documents/programing/c++/SDL/ray_casting_game/main.cpp" "CMakeFiles/ray_casting_game.dir/main.cpp.o" "gcc" "CMakeFiles/ray_casting_game.dir/main.cpp.o.d"
+  "/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/main.cpp" "CMakeFiles/ray_casting_game.dir/main.cpp.o" "gcc" "CMakeFiles/ray_casting_game.dir/main.cpp.o.d"
+  "/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/game.cpp" "CMakeFiles/ray_casting_game.dir/src/game.cpp.o" "gcc" "CMakeFiles/ray_casting_game.dir/src/game.cpp.o.d"
+  "/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/map.cpp" "CMakeFiles/ray_casting_game.dir/src/map.cpp.o" "gcc" "CMakeFiles/ray_casting_game.dir/src/map.cpp.o.d"
+  "/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/player.cpp" "CMakeFiles/ray_casting_game.dir/src/player.cpp.o" "gcc" "CMakeFiles/ray_casting_game.dir/src/player.cpp.o.d"
+  "/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/src/ray_caster.cpp" "CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o" "gcc" "CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o.d"
   "" "ray_casting_game" "gcc" "CMakeFiles/ray_casting_game.dir/link.d"
   )
 

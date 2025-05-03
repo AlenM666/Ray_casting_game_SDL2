@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/linuxbrew/.linuxbrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /home/linuxbrew/.linuxbrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alen/Documents/programing/c++/SDL/ray_casting_game
+CMAKE_SOURCE_DIR = /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alen/Documents/programing/c++/SDL/ray_casting_game/build
+CMAKE_BINARY_DIR = /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/alen/Documents/programing/c++/SDL/ray_casting_game/buil
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/home/linuxbrew/.linuxbrew/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/home/linuxbrew/.linuxbrew/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles /home/alen/Documents/programing/c++/SDL/ray_casting_game/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,102 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/game.o: src/game.cpp.o
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/game.cpp.o
+.PHONY : src/game.cpp.o
+
+src/game.i: src/game.cpp.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
+
+src/game.s: src/game.cpp.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
+
+src/map.o: src/map.cpp.o
+.PHONY : src/map.o
+
+# target to build an object file
+src/map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/map.cpp.o
+.PHONY : src/map.cpp.o
+
+src/map.i: src/map.cpp.i
+.PHONY : src/map.i
+
+# target to preprocess a source file
+src/map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/map.cpp.i
+.PHONY : src/map.cpp.i
+
+src/map.s: src/map.cpp.s
+.PHONY : src/map.s
+
+# target to generate assembly for a file
+src/map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/map.cpp.s
+.PHONY : src/map.cpp.s
+
+src/player.o: src/player.cpp.o
+.PHONY : src/player.o
+
+# target to build an object file
+src/player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/player.cpp.o
+.PHONY : src/player.cpp.o
+
+src/player.i: src/player.cpp.i
+.PHONY : src/player.i
+
+# target to preprocess a source file
+src/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/player.cpp.i
+.PHONY : src/player.cpp.i
+
+src/player.s: src/player.cpp.s
+.PHONY : src/player.s
+
+# target to generate assembly for a file
+src/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/player.cpp.s
+.PHONY : src/player.cpp.s
+
+src/ray_caster.o: src/ray_caster.cpp.o
+.PHONY : src/ray_caster.o
+
+# target to build an object file
+src/ray_caster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.o
+.PHONY : src/ray_caster.cpp.o
+
+src/ray_caster.i: src/ray_caster.cpp.i
+.PHONY : src/ray_caster.i
+
+# target to preprocess a source file
+src/ray_caster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.i
+.PHONY : src/ray_caster.cpp.i
+
+src/ray_caster.s: src/ray_caster.cpp.s
+.PHONY : src/ray_caster.s
+
+# target to generate assembly for a file
+src/ray_caster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/src/ray_caster.cpp.s
+.PHONY : src/ray_caster.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +261,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
+	@echo "... src/map.o"
+	@echo "... src/map.i"
+	@echo "... src/map.s"
+	@echo "... src/player.o"
+	@echo "... src/player.i"
+	@echo "... src/player.s"
+	@echo "... src/ray_caster.o"
+	@echo "... src/ray_caster.i"
+	@echo "... src/ray_caster.s"
 .PHONY : help
 
 

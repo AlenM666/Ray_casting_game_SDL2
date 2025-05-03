@@ -1,3 +1,3 @@
-/home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles/ray_casting_game.dir
-/home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles/edit_cache.dir
-/home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles/rebuild_cache.dir
+/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles/ray_casting_game.dir
+/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles/edit_cache.dir
+/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles/rebuild_cache.dir

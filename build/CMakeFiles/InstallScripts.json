@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/alen/Documents/programing/c++/SDL/ray_casting_game/build/cmake_install.cmake"
+		"/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

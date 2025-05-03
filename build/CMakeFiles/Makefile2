@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/linuxbrew/.linuxbrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /home/linuxbrew/.linuxbrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alen/Documents/programing/c++/SDL/ray_casting_game
+CMAKE_SOURCE_DIR = /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alen/Documents/programing/c++/SDL/ray_casting_game/build
+CMAKE_BINARY_DIR = /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/ray_casting_game.dir/clean
 CMakeFiles/ray_casting_game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles --progress-num=1,2 "Built target ray_casting_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ray_casting_game"
 .PHONY : CMakeFiles/ray_casting_game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ray_casting_game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ray_casting_game.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles 0
 .PHONY : CMakeFiles/ray_casting_game.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ ray_casting_game: CMakeFiles/ray_casting_game.dir/rule
 # codegen rule for target.
 CMakeFiles/ray_casting_game.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ray_casting_game.dir/build.make CMakeFiles/ray_casting_game.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alen/Documents/programing/c++/SDL/ray_casting_game/build/CMakeFiles --progress-num=1,2 "Finished codegen for target ray_casting_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target ray_casting_game"
 .PHONY : CMakeFiles/ray_casting_game.dir/codegen
 
 # clean rule for target.

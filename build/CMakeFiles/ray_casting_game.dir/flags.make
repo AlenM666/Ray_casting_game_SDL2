@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/alen/Documents/programing/c++/SDL/ray_casting_game/include -isystem /usr/include/SDL2
+CXX_INCLUDES = -I/home/alen/Documents/programing/personal/c++/Ray_casting_game_SDL2/include -isystem /usr/include/SDL2
 
 CXX_FLAGS = -std=gnu++17
 
